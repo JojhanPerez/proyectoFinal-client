@@ -83,7 +83,7 @@ const AddForm = (props) => {
             <Form.Item>
               <Input
                 prefix={<BookOutlined />}
-                placeholder="Nombre"
+                placeholder="Nombre de la Asignatura"
                 value={subjectData.academic_activity}
                 onChange={(e) =>
                   setSubjectData({
@@ -134,7 +134,7 @@ const AddForm = (props) => {
             <Form.Item>
               <Input
                 prefix={<BookOutlined />}
-                placeholder="PIAA"
+                placeholder="Versión del PIAA"
                 value={subjectData.piaa_version}
                 onChange={(e) =>
                   setSubjectData({ ...subjectData, piaa_version: e.target.value })
@@ -191,7 +191,7 @@ const AddForm = (props) => {
             <Form.Item>
               <Input
                 prefix={<BookOutlined />}
-                placeholder="Validación"
+                placeholder="Habilitación"
                 value={subjectData.last_chance}
                 onChange={(e) =>
                   setSubjectData({ ...subjectData, last_chance: e.target.value })

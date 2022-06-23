@@ -145,7 +145,7 @@ function DeleteSubject(props) {
                 ${subject.department ? subject.department : "..."} -
                 ${subject.academic_activity ? subject.academic_activity : "..."}
             `}
-                description={"Código"+ " " + subject.activity_code}
+                description={"Código:"+ " " + subject.activity_code}
             />
         </List.Item>
     );
